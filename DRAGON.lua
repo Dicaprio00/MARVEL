@@ -3359,9 +3359,9 @@ keyboard.inline_keyboard = {
 {
 {text = '𝙱𝚁𝙸𝙽𝙶𝙾', url="t.me/BringoXv"},{text = '𝙳𝙴𝙺𝙰', url="t.me/YY_OIO"},
 },
-{{text = '𝙼𝙾𝚂𝚃𝙰𝙵𝙰', url="t.me/M_P_L_6"}}, 
+{{text = '𝙱𝙾𝙾𝙳𝚈', url="t.me/BoOdY_BaSha"}}, 
 {
-{text = '𝙼𝙰𝚁𝚃𝙴𝙽', url="t.me/I_C_X"},{text = '𝙱𝙾𝙾𝙳𝚈', url="t.me/BoOdY_BaSha"},
+{text = '𝙼𝙰𝚁𝚃𝙴𝙽', url="t.me/I_C_X"},{text = '𝙼𝙾𝚂𝚃𝙰𝙵𝙰', url="t.me/M_P_L_6"},
 },
 {{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝙼𝙰𝚁𝚅𝙴𝙻', url="t.me/G_K_00"}}, 
 }
