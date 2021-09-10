@@ -3364,6 +3364,7 @@ keyboard.inline_keyboard = {
 },
 {{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝙼𝙰𝚁𝚅𝙴𝙻', url="t.me/G_K_00"},{text = '𝙼𝙾𝚂𝚃𝙰𝙵𝙰', url="t.me/M_P_L_6"},
 }
+
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/BEK_ROG/18&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
 end
