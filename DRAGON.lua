@@ -3350,19 +3350,18 @@ end
 if text == 'سورس' or text == 'السورس' or text == 'يا سورس' then
 local Text = [[
 
-𝐰𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐬𝐨𝐮𝐫𝐜𝐞 𝐦𝐚𝐫𝐯𝐞𝐥
-      𝐛𝐞𝐭𝐬 𝐬𝐨𝐮𝐫𝐜𝐞 𝐨𝐧 𝐭𝐞𝐥𝐞
+𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴 𝙼𝙰𝚁𝚅𝙴𝙻
  
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
 {
-{text = '𝐝𝐞𝐯 𝐛𝐫𝐢𝐧𝐠𝐨', url="t.me/BringoXv"},{text = '𝐝𝐞𝐯 𝐝𝐞𝐤𝐚', url="t.me/YY_OIO"},
+{text = '𝙱𝚁𝙸𝙽𝙶𝙾', url="t.me/BringoXv"},{text = '𝙳𝙴𝙺𝙰', url="t.me/YY_OIO"},
 },
 {
-{text = '𝐝𝐞𝐯 𝐦𝐚𝐫𝐭𝐞𝐧', url="t.me/I_C_X"},{text = '𝙱𝙾𝙾𝙳𝚈', url="t.me/BoOdY_BaSha"},
+{text = '𝙼𝙾𝚂𝚃𝙰𝙵𝙰', url="t.me/M_P_L_6"},{text = '𝙱𝙾𝙾𝙳𝚈', url="t.me/BoOdY_BaSha"},
 },
-{{text = '𝐬𝐨𝐮𝐫𝐜𝐞 𝐦𝐚𝐫𝐯𝐞𝐥', url="t.me/G_K_00"}}, 
+{text = '𝚂𝙾𝚄𝚁𝙲𝙴 𝙼𝙰𝚁𝚅𝙴𝙻', url="t.me/G_K_00"},{text = '𝙼𝙰𝚁𝚃𝙴𝙽', url="t.me/I_C_X"},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendvideo?chat_id=' .. msg.chat_id_ .. '&video=https://t.me/BEK_ROG/18&caption=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard)) 
@@ -3433,7 +3432,7 @@ end
 
 if text == 'بودي' or text == 'بوضي' or text == 'مبرمج السورس' then
 local Text = [[
-☆ المبرمج بودي ☆
+☆ المبرمج بودي لو حابب تتواصل معاه ☆
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
@@ -3442,6 +3441,19 @@ keyboard.inline_keyboard = {
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/xxxcccvvbbnn/910=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
+end
+
+if text == 'صاصا' or text == 'مصطفي' or text == 'مصاصا' then
+local Text = [[
+☆ المبرمج صاصا ☆
+]]
+keyboard = {} 
+keyboard.inline_keyboard = {
+{{text = '𝚂𝙰𝚂𝙰',url="t.me/M_P_L_6"}},
+{{text = 'اضفني لمجموعتك 🐣❤️', url="http://t.me/"..sudos.UserName.."?startgroup=new"}},
+}
+local msg_id = msg.id_/2097152/0.5
+https.request("https://api.telegram.org/bot"..token..'/sendPhoto?chat_id=' .. msg.chat_id_ .. '&photo=https://t.me/xxxcccvvbbnn/901=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
 
 if text == 'تواصل' or text == 'التواصل' then
